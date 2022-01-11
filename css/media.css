@@ -1,0 +1,233 @@
+
+
+/*mobile screen*/
+@media (min-width: 320px) and (max-width: 767px){
+
+	header .contact,
+	header .social-icon{
+		display: none
+	}
+	.nav button{
+		display: block;
+	}
+
+	header ul.navigation{
+		background-color: black;
+		position: fixed;
+		width: 100%;
+		left:-100%;
+		top:140px;
+		z-index: 9997;
+		transition: all 1s !important; 
+		display:block;
+		text-align: center;
+	}
+
+	header ul.navigation li a{
+		color: white;
+	}
+
+	.show header ul.navigation{
+		left: 0;
+	}	
+
+	.slider{
+		width: 100%;
+	}
+
+	.slider1{
+		width: 100%;
+		text-align: center;
+	}
+
+	.findcar{
+		width: 100%;
+	}
+
+	.findcar h1{
+		font-size: 27px;
+	}
+
+	.findcar form select{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.sale{
+		width: 100%;
+	}
+
+	.sales h2{
+		font-size: 25px;
+	}
+
+	.sales h3{
+		font-size: 35px;
+	}
+
+	.hd h1{
+		font-size: 20px;
+	}
+
+	.car{
+		width: 100%;
+		padding: 20px;
+	}
+
+	.letter{
+		width: 100%;
+	}
+
+
+	.letter form input{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.ftr{
+		width: 100%;
+	}
+
+	.ftr .ftr1 form input{
+		width: 100%;
+	}
+
+	.ftr .ftr1 textarea{
+		width: 100%;
+	}
+
+	.tj{
+		width: 100%;
+	}
+
+	.tm{
+		width: 100%;
+	}
+
+	.tm1 input{
+		width: 50%;
+	}
+
+	.kt{
+		width: 100%;
+	}
+
+}
+
+/*tablet screen*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .social-icon{
+		display: none;
+	}
+
+	header .contact,
+	header .social-icon{
+		display: none
+	}
+	.nav button{
+		display: block;
+	}
+
+	header ul.navigation{
+		background-color: black;
+		position: fixed;
+		width: 100%;
+		left:-100%;
+		top:140px;
+		z-index: 9997;
+		transition: all 1s !important; 
+		display:block;
+		text-align: center;
+	}
+
+	header ul.navigation li a{
+		color: white;
+	}
+
+	.show header ul.navigation{
+		left: 0;
+	}	
+
+	.slider{
+		width: 100%;
+	}
+
+	.slider1{
+		width: 100%;
+		text-align: center;
+	}
+
+	.findcar{
+		width: 100%;
+	}
+
+	.findcar h1{
+		font-size: 35px;
+	}
+
+	.findcar form select{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+
+	.sale{
+		width: 50%;
+	}
+
+	.sales h3{
+		font-size: 35px;
+	}
+
+	.hd h1{
+		font-size: 20px;
+	}
+
+	.car{
+		width: 50%;
+		padding: 20px;
+	}
+
+	.tj{
+		width: 100%;
+	}
+
+	.tm{
+		width: 100%;
+	}
+
+	.tm1{
+		width: 100%;
+	}
+
+	.tm1 input{
+		width: 500px;
+	}
+
+	.kt{
+		width: 100%;
+	}
+
+	.kt1 form input{
+		width: 100%;
+	}
+
+	.ftr{
+		width: 100%;
+	}
+
+	.ftr .ftr1 form input{
+		width: 100%;
+	}
+
+	.ftr .ftr1 textarea{
+		width: 100%;
+	}
+
+	
+
+
+}
+
